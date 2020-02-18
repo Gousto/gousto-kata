@@ -6,8 +6,7 @@
       "widthMm": 30,
       "heightMm": 50,
       "depthMm": 60
-    },
-    "co2FootprintKg": 200
+    }
   },
   {
     "id": "PK-SML-02",
@@ -16,8 +15,7 @@
       "widthMm": 20,
       "heightMm": 80,
       "depthMm": 50
-    },
-    "co2FootprintKg": 100
+    }
   },
   {
     "id": "PK-LRG-03",
@@ -26,7 +24,6 @@
       "widthMm": 20,
       "heightMm": 100,
       "depthMm": 50
-    },
-    "co2FootprintKg": 300
+    }
   }
 ]
