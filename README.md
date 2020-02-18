@@ -1,17 +1,19 @@
 # Gousto Kata
 
-## The Problem
+At Gousto we send boxes of ingredients to customers to cook at home and create their perfect dinner. Customers are able to choose multiple recipes for a different number of people. This means the number of ingredients in a box can vary, and the volume of those ingredients can vary by even more.
 
 ![Intelligent Packaging Explained](https://i.imgur.com/8iPoykn.png)
 
-At Gousto we send boxes of ingredients to customers to cook at home and create their perfect dinner. Customers are able to choose multiple recipes for a different number of people. This means the number of ingredients in a box can vary, and the volume of those ingredients can vary by even more.
+## The Problem
 
 In this test you'll be given two JSON files.
 
-1. `boxes.json`
-   This contains an array of different box sizes available for us to send an order in. Each box will have an ID and dimensions.
-2. `orders.json`.
-   This contains an array of orders, each order contains an ID and an array of ingredients. These ingredients will have a volume.
+- `boxes.json`
+
+  - This contains an array of different box sizes available for us to send an order in. Each box will have an ID and dimensions.
+
+- `orders.json`.
+  - This contains an array of orders, each order contains an ID and an array of ingredients. These ingredients will have a volume.
 
 We'd like you to build an app (command line, REST service, whatever you desire) which takes these two files processes them and determines the smallest possible box that the order will fit into. We call this feature **Intelligent Packaging**
 
@@ -21,14 +23,10 @@ Once you have the smallest possible box that fits all the ingredients we'd like 
 
 ## The Rules
 
-1. Approach this problem any way you like, you can build a RESTful service, a command line app or a UI if you wish.
+Approach this problem any way you like, you can build a RESTful service, a command line app or a simple script.
 
-2. Spend around 2 hours on this, don't feel you have to rush a solution. **You will not be judged on whether you finish or not**. We would much rather you **give us a solution that you are proud of** and feel best displays the type of code you would want to ship into production. That said, make sure there is a way to run your app and it does give some sort of output.
+Use whatever language, technology or framework you're most comfortable with to approach the problem.
 
-3. Tests are not a hard requirement but are strongly encouraged, if you're not used to testing your code have a go at it anyway. It's not that hard to get started with it and we promise it will be a great skill for you to learn.
+Feel free to ask questions and think out loud, we're more interested in seeing how you think and approach the problem than we are a working solution.
 
-4. Add a Read Me file we'd like you to cover three things.
-
-- How to run your app
-- Explain how you approached the problem, why you've done what you've done and importantly, if this wasn't a 2 hour tech test, what would you do differently?
-- Any other comments for us
+We don't expect for you to complete the exercise in the given time.
